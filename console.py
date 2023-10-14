@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Method Command Interpreter'''
+
 import cmd
 import shlex
 import models
