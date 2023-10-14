@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+'''Method Command Interpreter'''
 import cmd
 import shlex
 import models
@@ -172,3 +172,4 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
+
